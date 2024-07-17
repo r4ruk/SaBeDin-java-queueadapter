@@ -1,0 +1,10 @@
+
+packagename Patient
+
+Query
+getall(RequestPostBody body) -> list;
+gethansli(RequestPostBody body) -> list;
+
+Command
+create(RequestPostBody body)
+delete(RequestPostBody body)
