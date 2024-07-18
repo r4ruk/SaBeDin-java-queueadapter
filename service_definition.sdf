@@ -1,0 +1,10 @@
+servicename="service_example"
+
+[QUERYROUTES]
+List<String> getall()
+List<String> getByName()
+List<String> getById()
+
+[COMMANDROUTES]
+void create(String)
+void delete(Id)

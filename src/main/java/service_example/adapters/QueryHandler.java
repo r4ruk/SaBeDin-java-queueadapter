@@ -17,7 +17,8 @@ public class QueryHandler implements IQueryHandler {
     public List<String> handle(RequestPostBody body) {
         return switch (body.getMethod()) {
             case "getall" -> this.patientService.getAll(body.getObject());
-            case "gethans" -> this.patientService.getPatient(body.getObject());
+            case "getByName" -> this.patientService.getPatient(body.getObject());
+            case "getById" -> this.patientService.getPatient(body.getObject());
             default -> List.of();
         };
     }
