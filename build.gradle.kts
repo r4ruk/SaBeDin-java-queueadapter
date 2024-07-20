@@ -14,7 +14,6 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("com.tngtech.archunit:archunit-junit5:1.3.0")
-//    testImplementation ("com.tngtech.archunit:archunit:1.3.0")
     implementation("com.rabbitmq:amqp-client:5.17.1")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.15.2")
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.15.2")
